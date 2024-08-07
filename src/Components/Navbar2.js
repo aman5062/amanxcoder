@@ -1,28 +1,30 @@
-import React from 'react'
-import "../Components/Navbar.css"
+import React from 'react';
+import { Link } from 'react-router-dom';
+import "../Components/Navbar.css";
+
 export default function Navbar2() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <ul id='navbar_box'>
+    <nav className="navbar navbar-expand-lg navbar-light bg-light" id='navbar_bottom'>
+      <ul id='navbar_box'>
         <li>
-            <a href="">HTML</a>
+          <Link to="/html">HTML</Link>
         </li>
         <li>
-            <a href="">CSS</a>
+          <Link to="/css">CSS</Link>
         </li>
         <li>
-            <a href="">Javascript</a>
+          <Link to="/javascript">Javascript</Link>
         </li>
         <li>
-            <a href="">PHP</a>
+          <Link to="/php">PHP</Link>
         </li>
         <li>
-            <a href="">Python</a>
+          <Link to="/python">Python</Link>
         </li>
         <li>
-            <a href="">Java</a>
+          <Link to="/java">Java</Link>
         </li>
-        </ul>
+      </ul>
     </nav>
-  )
+  );
 }

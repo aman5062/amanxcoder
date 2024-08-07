@@ -1,0 +1,16 @@
+#full{
+    height: 85vh;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 480px) {
+    #full{
+        display: none;
+    }
+}
+
+.heading > Link{
+    color: black !important;
+}

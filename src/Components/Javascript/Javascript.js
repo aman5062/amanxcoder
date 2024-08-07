@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Home() {
+export default function Javascript() {
   return (
     <div>
-      Home
+      Javascript
     </div>
   )
 }
