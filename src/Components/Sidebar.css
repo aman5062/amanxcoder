@@ -1,13 +1,43 @@
-#full{
+.show_in_laptop{
+    padding: 0.2rem;
     height: 85vh;
     overflow-y: scroll;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
 }
-
+.show_in_mobile{
+    padding: .2rem;
+   height: 85vh;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column; 
+}
 @media screen and (max-width: 480px) {
-    #full{
+    .show_in_laptop{
         display: none;
+    }
+    .show_in_mobile{
+        margin-top: 1rem;
+        margin-left: -2rem;
+        width: 60vw;
+        color: white !important;
+        position: absolute;
+        background-color: rgb(189, 150, 225);
+        z-index: 1;
+        height: 72vh;
+        overflow-y: scroll;
+        display: flex;
+        flex-direction: column;
+    }
+    .show_in_mobile  a{
+        color: white !important;
+    }
+    .subheading{
+        margin-left: -20px;
+        font-size: 12px;
+    }
+    .heading{
+        margin-left: 5px;
     }
 }
 

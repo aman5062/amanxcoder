@@ -43,11 +43,12 @@ import Entities from '../HTML/Entities';
 import QuotationTag from '../HTML/QuotationTag';
 import ObsoleteTags from '../HTML/ObsoleteTags';
 import CharacterSets from '../HTML/CharacterSets';
+import IntroHTML from '../HTML/IntroHTML';
 
 const HtmlRoutes = () => (
   <Routes>
- 
-    <Route path='' element={<div>Introduction to HTML</div>} />
+    <Route path='introduction' element={<IntroHTML/>} />
+    <Route path='' element={<IntroHTML/>} />
     <Route path='what-is-html' element={<WhatIsHtml />} />
     <Route path='how-html-works' element={<HowHtmlWorks />} />
     <Route path='installing-html' element={<InstallingHtml />} />

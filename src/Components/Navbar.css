@@ -33,7 +33,13 @@
     display: flex;
     justify-content: center;
 }
-
 #body{
     margin-top: 50px;
+}
+
+@media screen and (max-width: 480px) {
+
+    #body{
+        margin-top: 70px;
+    }
 }

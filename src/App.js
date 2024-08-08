@@ -22,6 +22,7 @@ function App() {
           <div id='nav2'>
             <Navbar2 />
           </div>
+        
         </div>
         <div id='body'>
           <Routes>

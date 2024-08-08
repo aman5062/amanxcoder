@@ -3,28 +3,25 @@
     height: 100%;
     /* background-color: red; */
 }
-#body{
-    margin-top: 50px;
-    height: auto;
-}
+
 
 #navbar_container{
     height: 8vh;
 }
 #container_div{
     display: flex;
-    width: 100vw;
+    width: 98.5vw;
 }
 #right{
     width: 80vw;
     height: 100%;
-    margin: 10px;
-    padding: 2px;
+    
+    padding: 5px;
     overflow-y: scroll;
 }
 footer{
     
-    width: 98vw;
+    width: 100%;
     background-color: #e4e7e8;
     display: flex;
     justify-content: space-between;
@@ -62,11 +59,26 @@ footer{
     transform: scale(1.2); /* Slightly enlarge the icon on hover */
     filter: none; /* Remove the grayscale filter on hover to highlight the icon */
 }
+#menunav{
+    display: none;
+}
 
 @media screen and (max-width: 480px) {
    #right{
+    margin-top: 1rem;
+    height: 72vh;
     width: 100vh;
     margin-left: -20px;
+    overflow-y: scroll;
    }
-   
+   #menunav{
+    display: flex;
+    justify-content: right;
+    padding-right: 10px;
+}
+#menu_btn{
+    font-size: 24px;
+    color: blueviolet;
+}
+
 }
