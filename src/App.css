@@ -11,7 +11,17 @@
 #navbar_container{
     height: 8vh;
 }
-
+#container_div{
+    display: flex;
+    width: 100vw;
+}
+#right{
+    width: 80vw;
+    height: 100%;
+    margin: 10px;
+    padding: 2px;
+    overflow-y: scroll;
+}
 footer{
     
     width: 98vw;
@@ -51,4 +61,12 @@ footer{
 .social-icon img:hover {
     transform: scale(1.2); /* Slightly enlarge the icon on hover */
     filter: none; /* Remove the grayscale filter on hover to highlight the icon */
+}
+
+@media screen and (max-width: 480px) {
+   #right{
+    width: 100vh;
+    margin-left: -20px;
+   }
+   
 }
