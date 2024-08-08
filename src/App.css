@@ -1,6 +1,6 @@
 #left{
     width: 20vw;
-    height: 100%;
+    height: 85vh;
     /* background-color: red; */
 }
 
@@ -14,7 +14,7 @@
 }
 #right{
     width: 80vw;
-    height: 100%;
+    height: 85vh;
     
     padding: 5px;
     overflow-y: scroll;
